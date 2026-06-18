@@ -18,6 +18,8 @@ console.log("Traffic Light Says")
 
     let color = "red";
 
+    
+
     if (color==="green"){
         console.log("Go")
     }
@@ -38,5 +40,20 @@ console.log("-----------------------------------------------")
 for (let i =1; i <= 20; i++){
     console.log(`${i} squared is ${i*i}`)
 }
+
 console.log("-----------------------------------------------")
+
+// let power = 3;
+
+// for (let index = 1; index < 20; index++) {
+//     let eq;
+//     for (let index = 0; index < power; index++) {
+//         eq = eq * index
+//     }
+//         console.log(`${index} squared is ${}`)
+
+// }
+
+
+// i**2  <<<power operation
 
