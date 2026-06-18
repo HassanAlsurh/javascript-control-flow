@@ -16,8 +16,7 @@ else {
 console.log("-----------------------------------------------")
 console.log("Traffic Light Says")
 
-    let color = "green";
-
+    let color = "red";
 
     if (color==="green"){
         console.log("Go")
@@ -33,4 +32,11 @@ console.log("Traffic Light Says")
         
     }
 
+
+console.log("-----------------------------------------------")
+
+for (let i =1; i <= 20; i++){
+    console.log(`${i} squared is ${i*i}`)
+}
+console.log("-----------------------------------------------")
 
